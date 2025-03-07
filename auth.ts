@@ -55,7 +55,7 @@ async function authenticateAndSaveCredentials() {
   console.error("Launching auth flow…");
   console.error("Using credentials path:", credentialsPath);
 
-  const keyfilePath = path.join(CREDS_DIR, "gcp-oauth.keys.json");
+  const keyfilePath = path.resolve(process.cwd(), 'gcp-oauth.keys.json');
   console.error("Using keyfile path:", keyfilePath);
 
   const auth = await authenticateWithTimeout(keyfilePath, SCOPES);
