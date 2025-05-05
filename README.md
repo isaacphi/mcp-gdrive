@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/isaacphi-mcp-gdrive-badge.png)](https://mseep.ai/app/isaacphi-mcp-gdrive)
+
 # Google Drive server
 
 This MCP server integrates with Google Drive to allow listing, reading, and searching files, as well as the ability to read and write to Google Sheets.
